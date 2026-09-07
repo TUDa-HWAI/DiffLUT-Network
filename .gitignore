@@ -1,0 +1,54 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Python environments
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Packaging and compiled extensions
+build/
+dist/
+.eggs/
+*.egg-info/
+*.so
+*.o
+*.a
+
+# Experiment outputs and temporary files
+/result/
+/results/
+/experiments/result/
+/tmp/
+*.log
+*.pid
+*.pid.*
+
+# Downloaded datasets
+/experiments/datasets/data-*/
+/experiments/datasets/jsc-openml/
+/experiments/datasets/jsc-cernbox/
+
+# Local launch and sweep files
+/git_push.sh
+sweep*.yaml
+*.slurm
+
+# Editors, operating systems, and local agents
+.idea/
+.vscode/
+.agents/
+.codex/
+.DS_Store
+Thumbs.db
