@@ -168,3 +168,19 @@ experiments/utils/         Verilog export utilities
 ## License
 
 DiffLUT-Net is released under the MIT License. See [LICENSE](LICENSE).
+
+## Citation
+
+If you use DiffLUT-Net in your research, please cite:
+
+```bibtex
+@misc{ye2026difflutnetdifferentiabletrainingfpga,
+  title         = {{DiffLUT-Net}: Differentiable Training of {FPGA LUT} Networks with Learnable Connectivity},
+  author        = {Jiaqi Ye and Xinrui Gong and Jingcun Wang and Olga Kondrateva and Bing Li and Grace Li Zhang},
+  year          = {2026},
+  eprint        = {2609.09254},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url           = {https://arxiv.org/abs/2609.09254},
+}
+```
